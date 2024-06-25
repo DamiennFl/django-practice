@@ -1,0 +1,9 @@
+li a {
+    color: green;
+}
+
+body {
+    background: white url("images/images.png") no-repeat right top;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
