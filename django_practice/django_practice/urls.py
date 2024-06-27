@@ -7,6 +7,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("polls/", include("polls.urls")),
     path("", views.homepage, name="homepage"),
+    path("users/", include("users.urls")),
 ]
 
 if not settings.TESTING:
